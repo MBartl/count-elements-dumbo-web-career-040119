@@ -5,7 +5,7 @@ def count_elements(array)
     if new_hash.has_key?(array[i])
       new_hash[:array[i]] += 1
     else
-      hash = {array: 1}
+      new_hash.merge{array: 1}
       
     end
     i += 1
