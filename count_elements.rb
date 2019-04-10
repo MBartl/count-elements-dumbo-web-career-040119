@@ -3,6 +3,7 @@ def count_elements(array)
   i = 0
   while i < array.length do
     new_hash.merge({array[i] => 1})
+    i += 1
   end
 end
  
