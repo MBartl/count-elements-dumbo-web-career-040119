@@ -5,8 +5,7 @@ def count_elements(array)
   binding.pry
   i = 0
   while i < array.length do
-    new_hash.merge({array[i] => 1})
-    i += 1
+    new_hash[array[i]] = 1
   end
 end
  
