@@ -7,6 +7,7 @@ def count_elements(array)
     else
       new_hash[array[i]] = 1
     end
+    i += 1
   end
 end
  
