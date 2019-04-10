@@ -5,8 +5,9 @@ def count_elements(array)
   array.map do |item| 
     if new_hash.has_key?(item) 
       new_hash[item] += 1 
-    else  
+    else
       new_hash[item] = 1
+    end
   end
 end
  
