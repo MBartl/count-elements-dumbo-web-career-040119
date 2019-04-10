@@ -5,7 +5,7 @@ def count_elements(array)
     if new_hash.has_key?(array[i])
       new_hash[array[i]] += 1
     else
-      new_hash[array[i]] = 1
+      new_hash
     end
     i += 1
   end
