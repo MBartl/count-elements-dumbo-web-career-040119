@@ -2,15 +2,7 @@ require 'pry'
 
 def count_elements(array)
   new_hash = {}
-  i = 0
-  while i < array.length do
-    if !new_hash.has_key?(array[i])
-      new_hash[array[i]] = 1
-    else
-      new_hash[array[i]] += 1
-    end
-    i += 1
-  end
+  array.map {|item| new_hash.has_key?(item) new_hash[item] += 1 ; new_hash[item] = 1
   new_hash
 end
  
