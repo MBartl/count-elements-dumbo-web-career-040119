@@ -7,5 +7,6 @@ def count_elements(array)
     new_hash[array[i]] = 1
     i += 1
   end
+  binding.pry
 end
  
